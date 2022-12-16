@@ -1,3 +1,14 @@
+// save reference to important DOM elements
+var timeDisplayed = $("#currentDay");
+
+// create the function that displays the current time
+var currentDate = moment().format("dddd, Do MMMM");
+timeDisplayed.text(currentDate);
+// setInterval(function () {
+//   currentDate = moment().format("dddd, Do MMMM");
+//   timeDisplayed.text(currentDate);
+// }, 1000);
+
 $("#textarea-hour").css({
   "background-color": "yellow",
   border: "2px solid red",
