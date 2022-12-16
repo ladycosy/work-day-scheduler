@@ -37,7 +37,7 @@ SO THAT I can manage my time effectively
 
 ## Link to Project GitHub Repo
 
-[GitHub Repo]()
+[GitHub Repo](https://github.com/ladycosy/work-day-scheduler.git)
 
 ## Screenshot
 
