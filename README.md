@@ -5,16 +5,8 @@
 
 Creating **code for analyzing the financial records** of a company using `HTML` (minimal) and `JavaScript`. 
 
-Elements to be calculated and printed in console: 
-1. number of months
-2. total amount of sales
-3. changes in profits/losses from month to month 
-4. average of the monthly changes
-5. greatest increase & decrease in profits based on monthly changes
-
-The monthly sales data had been provided for this task. There were two data points provided: name of the month/year and month's profit/loss in $. The number of data rows = 86.  
-
-The following print has to be generated in console as an end result:
+Create a calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature `dynamically updated HTML and CSS powered by jQuery`.
+I will use the [Moment.js](https://momentjs.com/) library to work with date and time. 
 
 ## User Story
 ```
@@ -24,11 +16,23 @@ SO THAT I can manage my time effectively
 ```
 
 ## Acceptance Criteria
-* Link the JavaScript file to the HTML file
-* Write clear comments at each stage of writing up the code in JavaScript
-* Log the desired output into the console
-* Deploy the website and check that it loads with no errors
+The app should:
 
+* Display the current day at the top of the calender when a user opens the planner.
+ 
+* Present timeblocks for standard business hours when the user scrolls down.
+ 
+* Color-code each timeblock based on past, present, and future when the timeblock is viewed.
+ 
+* Allow a user to enter an event when they click a timeblock
+
+* Save the event in local storage when the save button is clicked in that timeblock.
+
+* Persist events between refreshes of a page
+
+The following animation demonstrates the application functionality:
+
+![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
 
 
 ## Link to Deployed Application
